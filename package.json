@@ -1,0 +1,14 @@
+{
+  "name": "final_server",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.16.4",
+    "md5": "^2.2.1"
+  },
+  "scripts": {
+    "start-backend": "node index.js",
+    "start-frontend": "cd frontend && npm run build && npm start",
+    "start-all": "npm run start-backend && npm run start-frontend",
+    "start": "npm run start-backend"
+  }
+}
